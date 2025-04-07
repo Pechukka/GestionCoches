@@ -15,22 +15,6 @@ public class Coche {
     private static Coche[] coches = new Coche[100];
     private static int numCoches = 0;
     private static int contadorId = 1;
-    
-    // Añadimos 5 coches al comenzar el programa
-    static {
-        coches[0] = new Coche("ABC123", "Toyota", "Corolla", "Rojo", 20000.0, 2021, false);
-        contadorId++;
-        coches[1] = new Coche("XYZ456", "Honda", "Civic", "Azul", 18000.0, 2020, false);
-        contadorId++;
-        coches[2] = new Coche("DEF789", "Ford", "Focus", "Negro", 22000.0, 2022, false);
-        contadorId++;
-        coches[3] = new Coche("GHI012", "Chevrolet", "Malibu", "Blanco", 25000.0, 2021, false);
-        contadorId++;
-        coches[4] = new Coche("JKL345", "Nissan", "Altima", "Gris", 23000.0, 2022, true);
-        contadorId++;
-
-        numCoches = 5;
-    }
 
     // Constructor
     public Coche(String matricula, String marca, String modelo, String color, double precio, int anio,
@@ -257,7 +241,7 @@ public class Coche {
             System.out.println("No se encontró ningún coche del año: " + anioBuscado);
         }
     }
-    
+
     // Buscar por id
     public static void buscarPorId(int idBuscado) {
         boolean encontrado = false;

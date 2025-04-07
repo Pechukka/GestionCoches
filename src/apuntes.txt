@@ -1,0 +1,8 @@
+-Hacer la clase coche una librería.
+-Cambiar Array a lista y mirar todos los métodos que funcionan con ese Array y modificarlos para que sean de lista y no de Array.
+-Mover todos los métodos de modificación a una clase de "Util" o "crud".
+-Cambiar los print a println y los menú a una variable string menú.
+-Cambiar do while de opciones a booleano y en el número salir pase a false.
+-Limpiar el código de breaks innecesarios.
+-Quitar retornos de string en métodos, ponerlos void e informar en el main de los cambios.
+-Cambiar métodos buscar por un único método que reciba un enum y que con un switch case se ejecute uno u otro método.
